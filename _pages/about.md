@@ -22,6 +22,3 @@ Another cause is the barrier of scholasticism - the high birth rate of technical
 How often have you questioned whether 95% confidence level is best for your model? Why 95%? If your answer is 'because a book/article/person said so', this wiki is for you. If your answer is 'yes, of course, I question these paramaters', then join me in expanding this wiki for those who've forgotten to question the defaults but would absorb relatable explanations if only a directory was available.
 
 **Note: This wiki is meant for everyone (not just data practicioners) interested in building an intuitive understanding of statistical terms, methods & rules.**
-
-<!-- frontmatter section commented out
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc. -->
