@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Exponential Growth
-date: 2024-05-01 00:32:13
+date: 2024-08-31
 # description: this is what included tabs in a post could look like
 tags: growth rate, trend
 # categories: sample-posts
