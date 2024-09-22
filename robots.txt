@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://jahnavi.github.io/ioed-stats//sitemap.xml
+Sitemap: https://jahnavi-ghelani.github.io/ioed-stats//sitemap.xml
