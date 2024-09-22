@@ -8,13 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
@@ -30,5 +24,4 @@ How often have you questioned whether 95% confidence level is best for your mode
 **Note: This wiki is meant for everyone (not just data practicioners) interested in building an intuitive understanding of statistical terms, methods & rules.**
 
 <!-- frontmatter section commented out
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
- -->
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc. -->
