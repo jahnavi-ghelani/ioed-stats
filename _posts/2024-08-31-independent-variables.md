@@ -25,7 +25,7 @@ Let's say that (from the below image) you want to understand how much each perso
 ![An analogy of dependent & independent variables](independent-dependent-variables.jpeg)
 
 # Mathematically,
-Suppose that we have a quantitative phenomenon (usually denoted by Y) with n different predictors `(X~1~, X~2~, ..., X~n~)`, it can be denoted, in its simplest form, as so:  
+Suppose that we have a quantitative phenomenon (usually denoted by Y) with n different predictors `(X1, X2, ..., Xn)`, it can be denoted, in its simplest form, as so:  
 `Y = f(X1, X2, ..., Xn) + e`  
 where, `f()` is a function, i.e., the relationship between the independent variables, `e` is the error margin (the noise, randomness in the modelling since nothing is certain). Here, X1:n explain some systematic information about Y (why Y changes, by how much, etc.). 
 
