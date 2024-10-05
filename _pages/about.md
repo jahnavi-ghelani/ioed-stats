@@ -9,7 +9,7 @@ profile:
   image: assets/img/complexities-stats-math.webp
   image_circular: false # crops the image to make it circular
 
-social: true # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page 
 ---
 
 I repurpose the words of Adam Waytz who, through his literature in [This Idea Is Brilliant](https://www.edge.org/conversation/john_brockman-this-idea-is-brilliant), planted the seed for this space.
