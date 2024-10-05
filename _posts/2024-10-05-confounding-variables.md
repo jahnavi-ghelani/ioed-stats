@@ -20,7 +20,7 @@ The below explanation uses these terminologies.
 2. [Mathematically](#mathematically)
 3. [Statistically](#statistically)
 
-# Intuitively,
+## Intuitively,
 When we are studying the relationship between two variables (independent <-> dependent, or 2 independents) there may be a third (hidden) variable secretly influencing both your variables. This hidden variable is called the confounding variable. 
 
 Popular examples are usually those of spurious correlation, where two seemingly unrelated variables with high correlation are claimed to have a cause-effect relationship. Let's take the case of, increased ice cream sales leading to more people dying. At first glance, this seems ridiculous. There is no direct reasoning for death toll to increase simply because ice cream sales are going up. 
@@ -43,12 +43,12 @@ In summary, a confounding variable is a hidden variable (not part of your data) 
 
 In short, confounding variables, or confounders, distort the relationship between variables. 
 
-# ~~Mathematically,~~
+## ~~Mathematically,~~
 There are no mathematical formulae for auto-detecting confounders or their effect. What exists are tried & tested ways to avoid/reduce confounding effects from distorting your results.
 
 Note: This requires you to critically examine your dataset and analysis methods.
 
-# Statistically,
+## Statistically,
 Here are a few ways to do away with confounders:
 * **Randomize your dataset:** Ensure that your sample is truly randomized & representative of the population (be vary of selection biases). This will minimize the confounding effect by letting chance play a greater role in sampling.  
 For the first example (above), include ice cream sales & death statistics randomly from different regions to minimize the effect of temperature in skewing the results. Here, you may easily learn that, when an equal proportion of hot-cold-temperate climates are sampled from, there is no correlation between ice cream sales & death tolls.   
