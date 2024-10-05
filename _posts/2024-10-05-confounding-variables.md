@@ -10,7 +10,6 @@ tags:
 # categories: sample-posts
 # description: this is what included tabs in a post could look like
 # tabs: true
-# 2934
 ---
 
 [Here,](_posts/2024-08-31-independent-variables.md) I spoke about independent & dependent variables. 
@@ -30,7 +29,9 @@ It seems like we have a hidden actor, a confounding variable. A variable secretl
 
 Let's look at another example where the confounding effect is less obvious, and hence, we're less likely to detect its presence. Let's take the case of coffee consumption and work performance. Your study shows that increased coffee consumption leads to a better work performance - is this causation or spurious correlation? The result may seem agreeable to you, especially if you've been a coffee drinker or are surrounded by a coffee culture.
 
-> &#1F30C; **Tangent:** Why? due to our confirmation bias - we are more likely to easily believe evidence that reaffirms are beliefs. That is, we’re less likely to question the accuracy of such results, which is contrary to one of the tenets of being a data professional - be equally skeptical about everything.
+---
+&#2934; **Tangent:** Why? due to our confirmation bias - we are more likely to easily believe evidence that reaffirms are beliefs. That is, we’re less likely to question the accuracy of such results, which is contrary to one of the tenets of being a data professional - be equally skeptical about everything.
+---
 
 In your research, the hidden variable (the confounding variable) may be sleep quality. Perhaps, poor sleep quality drives your research participants to drink more coffee to be able to work better. Here, coffee consumption is simply a variable caught in between the effect of sleep quality on work performance. 
 
@@ -51,7 +52,10 @@ Note: This requires you to critically examine your dataset and analysis methods.
 Here are a few ways to do away with confounders:
 * **Randomize your dataset:** Ensure that your sample is truly randomized & representative of the population (be vary of selection biases). This will minimize the confounding effect by letting chance play a greater role in sampling.  
 For the first example (above), include ice cream sales & death statistics randomly from different regions to minimize the effect of temperature in skewing the results. Here, you may easily learn that, when an equal proportion of hot-cold-temperate climates are sampled from, there is no correlation between ice cream sales & death tolls.   
+
 * **Apply segmentation or stratification:** This requires you to pre-empt possible confounding effects based on your domain knowledge (expert knowledge about the research subject). 
 In our second example (above), you may know upfront that variables like hours of sleep, work hours, employee experience, etc. may also effect work performance. Instead of including these in your effect modeling, you may choose to cluster or segregate your data on the basis of these possible confounders and measure the relationship between coffee consumption & work performance independently within all clusters. The results may clearly show that cause-effect relationship isn’t as universal (across all clusters) as we had initially thought.   
+
 * **Take statistical control:** This is a more direct approach in adding the expected confounders directly to the model and performing multiple regressions fine tune the truer effect of coffee consumption on work performance. If the other confounders indeed have a greater effect on work performance, the relative contributing power (beta co-efficient) of coffee consumption will reduce in the model. 
+
 * **Introduce instrumental variables (IVs):** This is a special class of variables that are correlated with the [independent variable](_posts/2024-08-31-independent-variables.md) (misunderstood influencer) but not with the dependent variable (affected variable). At the risk of multicollinearity (increasing the influence/weight of a set of correlated variables since it is similar to double-counting a variable), this helps to isolate the truer effect in scenarios where it is difficult to gather data on the confounders (due to data collection/quality issues/etc.). 
