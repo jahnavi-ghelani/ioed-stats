@@ -12,7 +12,7 @@ tags:
 # tabs: true
 ---
 
-[Here,](/blog/2024/independent-variables.md) I spoke about independent & dependent variables.  
+[Here,](ioed-stats/blog/2024/independent-variables.md) I spoke about independent & dependent variables.  
 The below explanation uses these terminologies. 
 
 # Contents
@@ -30,7 +30,7 @@ It seems like we have a hidden actor, a confounding variable. A variable secretl
 Let's look at another example where the confounding effect is less obvious, and hence, we're less likely to detect its presence. Let's take the case of coffee consumption and work performance. Your study shows that increased coffee consumption leads to a better work performance - is this causation or spurious correlation? The result may seem agreeable to you, especially if you've been a coffee drinker or are surrounded by a coffee culture.
 
 ---
-&#2934; **Tangent:** Why? due to our confirmation bias - we are more likely to easily believe evidence that reaffirms are beliefs. That is, we’re less likely to question the accuracy of such results, which is contrary to one of the tenets of being a data professional - be equally skeptical about everything.
+&#127756; **Tangent:** Why? due to our confirmation bias - we are more likely to easily believe evidence that reaffirms are beliefs. That is, we're less likely to question the accuracy of such results, which is contrary to one of the tenets of being a data professional - be equally skeptical about everything.  
 ---
 
 In your research, the hidden variable (the confounding variable) may be sleep quality. Perhaps, poor sleep quality drives your research participants to drink more coffee to be able to work better. Here, coffee consumption is simply a variable caught in between the effect of sleep quality on work performance. 
@@ -39,13 +39,14 @@ In summary, a confounding variable is a hidden variable (not part of your data) 
 * *temperature* **(confounding variable)** had a strong positive correlation with *ice cream sales* **(misunderstood influencer)** and was the real cause behind *deaths* **(effect)**. 
 * *sleep quality* **(confounding variable)**  had a strong positive correlation with *coffee consumption* **(misunderstood influencer)** and was the real cause behind changes in *work performance* **(effect)**.  
 
-![An analogy on the confounding effect.](/assets/img/confounding_variable.png)
-<!-- <div class="row mt-3"> 
+![An analogy on the confounding effect.](ioed-stats/assets/img/confounding_variable.png)
+
+<div class="row mt-3"> 
     {% include figure.liquid loading="eager" path="assets/img/confounding_variable.png" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
     A humourous analogy on the confounding effect.
-</div> -->
+</div>
 
 In short, confounding variables, or confounders, distort the relationship between variables. 
 
