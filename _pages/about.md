@@ -6,7 +6,7 @@ subtitle: Dispelling the Illusion of Explanatry Depth (IOED) in Statistics
 
 profile:
   align: right
-  image: assets/img/complexities-stats-math.webp
+  image: complexities-stats-math.webp
   image_circular: false # crops the image to make it circular
 
 social: true # includes social icons at the bottom of the page 
