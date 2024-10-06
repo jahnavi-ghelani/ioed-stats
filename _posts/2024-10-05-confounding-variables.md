@@ -12,7 +12,7 @@ tags:
 # tabs: true
 ---
 
-[Here,](ioed-stats/blog/2024/independent-variables.md) I spoke about independent & dependent variables.  
+[Here,](/blog/2024/independent-variables.md) I spoke about independent & dependent variables.  
 The below explanation uses these terminologies. 
 
 # Contents
