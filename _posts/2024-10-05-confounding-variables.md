@@ -12,7 +12,7 @@ tags:
 # tabs: true
 ---
 
-[Here,](/ioed-stats/blog/2024/independent-variables.md) I spoke about independent & dependent variables.  
+[Here,](/ioed-stats/blog/2024/independent-variables) I spoke about independent & dependent variables.  
 The below explanation uses these terminologies. 
 
 # Contents
@@ -38,16 +38,20 @@ In summary, a confounding variable is a hidden variable (not part of your data) 
 * *temperature* **(confounding variable)** had a strong positive correlation with *ice cream sales* **(misunderstood influencer)** and was the real cause behind *deaths* **(effect)**. 
 * *sleep quality* **(confounding variable)**  had a strong positive correlation with *coffee consumption* **(misunderstood influencer)** and was the real cause behind changes in *work performance* **(effect)**.  
 
-![An analogy on the confounding effect.](/ioed-stats/assets/img/confounding_variable.png)
+In short, confounding variables, or confounders, distort the relationship between variables.  
+
+<center>
+![An analogy on the confounding effect.](/ioed-stats/assets/img/confounding_variable-480.webp)
+</center>
 
 <div class="row mt-3"> 
-    {% include figure.liquid loading="eager" path="assets/img/confounding_variable-480.webp" class="img-fluid rounded z-depth-1" %}
+    <center>
+        {% include figure.liquid loading="eager" path="assets/img/confounding_variable-480.webp" class="img-fluid rounded z-depth-1" %}
+    </center>
 </div>
 <div class="caption">
     A humourous analogy on the confounding effect.
 </div>
-
-In short, confounding variables, or confounders, distort the relationship between variables. 
 
 ## ~~Mathematically,~~
 There are no mathematical formulae for auto-detecting confounders or their effect. What exists are tried & tested ways to avoid/reduce confounding effects from distorting your results.
@@ -64,4 +68,4 @@ In our second example (above), you may know upfront that variables like hours of
 
 * **Take statistical control:** This is a more direct approach in adding the expected confounders directly to the model and performing multiple regressions fine tune the truer effect of coffee consumption on work performance. If the other confounders indeed have a greater effect on work performance, the relative contributing power (beta co-efficient) of coffee consumption will reduce in the model. 
 
-* **Introduce instrumental variables (IVs):** This is a special class of variables that are correlated with the [independent variable](/ioed-stats/blog/2024/independent-variables.md) (misunderstood influencer) but not with the dependent variable (affected variable). At the risk of multicollinearity (increasing the influence/weight of a set of correlated variables since it is similar to double-counting a variable), this helps to isolate the truer effect in scenarios where it is difficult to gather data on the confounders (due to data collection/quality issues/etc.). 
+* **Introduce instrumental variables (IVs):** This is a special class of variables that are correlated with the [independent variable](/ioed-stats/blog/2024/independent-variables) (misunderstood influencer) but not with the dependent variable (affected variable). At the risk of multicollinearity (increasing the influence/weight of a set of correlated variables since it is similar to double-counting a variable), this helps to isolate the truer effect in scenarios where it is difficult to gather data on the confounders (due to data collection/quality issues/etc.). 
