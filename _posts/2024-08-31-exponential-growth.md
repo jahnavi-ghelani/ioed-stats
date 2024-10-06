@@ -12,7 +12,7 @@ tags:
 
 **Growth that occurs with repsect to the value of the object. The more you use it, the faster it grows. It's like a snow-ball effect**: as a snowball rolls, it picks up more snow, gets bigger, rolls faster, picks up more snow per roll than before, and so on *exponentially*.
 
-![Exponential Growth](assets/img/linear_vs_exponential_growth.jpeg)
+![Exponential Growth](/assets/img/linear_vs_exponential_growth.jpeg)
 
 **Linear growth**: object **continues to grow at the same rate.**
 
