@@ -133,7 +133,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: IOED Stats # blog_name will be displayed in your blog page
-blog_description: Understanding statistical (or mathematical or data science) terminology intuitively.
+blog_description: Intuitively understand statistical (or mathematical or data science) terminology.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
