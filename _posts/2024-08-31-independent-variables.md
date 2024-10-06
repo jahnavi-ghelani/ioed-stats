@@ -22,7 +22,7 @@ Independent variables are represented by the symbol X. Multiple independent vari
 
 Let's say that (from the below image) you want to understand how much each person contributes to the movement of the cart or, which person moves the cart the most/least. A simple version of this model will include each person as an independent variable and the cart as the dependent variable. It is the effort of the independent Xs that is moving the dependent cart Y. Without the independent variables, the cart will not move. 
 
-![An analogy of dependent & independent variables](/assets/img/independent-dependent-variables.jpeg)
+![An analogy of dependent & independent variables](/ioed-stats/assets/img/independent-dependent-variables-480.webp)
 
 # Mathematically,
 Suppose that we have a quantitative phenomenon (usually denoted by Y) with n different predictors `(X1, X2, ..., Xn)`, it can be denoted, in its simplest form, as so:  

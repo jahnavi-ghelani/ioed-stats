@@ -32,6 +32,7 @@ Let's look at another example where the confounding effect is less obvious, and 
 ---
 &#127756; **Tangent:** Why? due to our confirmation bias - we are more likely to easily believe evidence that reaffirms are beliefs. That is, we're less likely to question the accuracy of such results, which is contrary to one of the tenets of being a data professional - be equally skeptical about everything.  
 ---
+  
 In your research, the hidden variable (the confounding variable) may be sleep quality. Perhaps, poor sleep quality drives your research participants to drink more coffee to be able to work better. Here, coffee consumption is simply a variable caught in between the effect of sleep quality on work performance. 
 
 In summary, a confounding variable is a hidden variable (not part of your data) that influences one or more of your variables, and has a strong correlation with the misunderstood influencer. In the above examples,
@@ -40,20 +41,7 @@ In summary, a confounding variable is a hidden variable (not part of your data) 
 
 In short, confounding variables, or confounders, distort the relationship between variables.  
 
-![An analogy on the confounding effect{caption=An analogy on the confounding effect.}](/ioed-stats/assets/img/confounding_variable-480.webp)
-
-<centre>
-    <img src="/ioed-stats/assets/img/confounding_variable-480.webp" alt="An analogy on the confounding effect." caption = "An analogy on the confounding effect." />
-</centre>
-  
-<div class="row mt-3"> 
-    <centre>
-        {% include figure.liquid loading="eager" path="assets/img/confounding_variable-480.webp" class="img-fluid rounded z-depth-1" %}
-    </centre>
-</div>
-<div class="caption">
-    An analogy on the confounding effect.
-</div>
+![An analogy on the confounding effect {caption = An analogy on the confounding effect.}](/ioed-stats/assets/img/confounding_variable-480.webp)
 
 ## ~~Mathematically,~~
 There are no mathematical formulae for auto-detecting confounders or their effect. What exists are tried & tested ways to avoid/reduce confounding effects from distorting your results.
