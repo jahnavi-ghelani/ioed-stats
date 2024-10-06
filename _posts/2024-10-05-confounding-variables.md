@@ -12,7 +12,7 @@ tags:
 # tabs: true
 ---
 
-[Here,](home/blog/2024/independent-variables.md) I spoke about independent & dependent variables.  
+[Here,](/blog/2024/independent-variables.md) I spoke about independent & dependent variables.  
 The below explanation uses these terminologies. 
 
 # Contents
@@ -39,7 +39,7 @@ In summary, a confounding variable is a hidden variable (not part of your data) 
 * *temperature* **(confounding variable)** had a strong positive correlation with *ice cream sales* **(misunderstood influencer)** and was the real cause behind *deaths* **(effect)**. 
 * *sleep quality* **(confounding variable)**  had a strong positive correlation with *coffee consumption* **(misunderstood influencer)** and was the real cause behind changes in *work performance* **(effect)**.  
 
-![An analogy on the confounding effect.](home/assets/img/confounding_variable.png)
+![An analogy on the confounding effect.](/assets/img/confounding_variable.png)
 <!-- <div class="row mt-3"> 
     {% include figure.liquid loading="eager" path="assets/img/confounding_variable.png" class="img-fluid rounded z-depth-1" %}
 </div>
