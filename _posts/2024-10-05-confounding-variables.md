@@ -40,14 +40,12 @@ In summary, a confounding variable is a hidden variable (not part of your data) 
 
 In short, confounding variables, or confounders, distort the relationship between variables.  
 
-![An analogy on the confounding effect.](/ioed-stats/assets/img/confounding_variable-480.webp)
+<!-- ![An analogy on the confounding effect.](/ioed-stats/assets/img/confounding_variable-480.webp) -->
 
 <centre>
     <img src="assets/img/confounding_variable-480.webp" alt="An analogy on the confounding effect." caption = "An analogy on the confounding effect." />
-
-    {% include figure.liquid loading="eager" path="assets/img/confounding_variable-480.webp" class="img-fluid rounded z-depth-1" %}
 </centre>
-
+  
 <div class="row mt-3"> 
     <centre>
         {% include figure.liquid loading="eager" path="assets/img/confounding_variable-480.webp" class="img-fluid rounded z-depth-1" %}

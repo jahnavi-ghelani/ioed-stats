@@ -26,7 +26,9 @@ Let's say that (from the below image) you want to understand how much each perso
 
 # Mathematically,
 Suppose that we have a quantitative phenomenon (usually denoted by Y) with n different predictors `(X1, X2, ..., Xn)`, it can be denoted, in its simplest form, as so:  
-`Y = f(X1, X2, ..., Xn) + e`  
+$$
+Y = f(X1, X2, ..., Xn) + e  
+$$
 where, `f()` is a function, i.e., the relationship between the independent variables, `e` is the error margin (the noise, randomness in the modelling since nothing is certain). Here, X1:n explain some systematic information about Y (why Y changes, by how much, etc.). 
 
 **Let's take another example to better understand `e`, the error margin in all models:** income (Y) may be explained by predictors like: years of education and work experience (X1 & X2). Here, the error margin, e, would involve edge cases or other predictors that haven't been included in the model (like, national standard of living, job type, etc.). Usually, the reason for not including key predictors in the model is data availability or quality reasons. 
